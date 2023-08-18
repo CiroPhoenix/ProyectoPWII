@@ -3,9 +3,13 @@
     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
 }
 
+
+
+
 .card-image{
     height: 35rem;
     overflow: hidden;
+    
 }
 
 .card-image img{
@@ -25,8 +29,55 @@ padding: 2rem;
     align-items: center;
 }
 
+
+
+.perfil-usuario img{
+    width: 50%;
+    height: 50%;
+  
+    display: block;
+    top: 60%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-210%,-100%);
+}
+
+
+.perfil-usuario{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.detalles-perfil{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+    top: 60%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-110%,-100%);
+}
+
+
+
+
+
+
+
+
 @media screen and (min-width: 900px){
     .card{
         display: flex;
     }
 }
+
+
+
+
+
+

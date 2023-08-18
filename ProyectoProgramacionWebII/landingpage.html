@@ -14,27 +14,29 @@
     />
 
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/estilo.css">
+ 
 
-    <title>Hello, world!</title>
+    <title>Diegesis - Home</title>
   </head>
 
 
 
-  <body style="height: 2000px;  background: url(../img/background.jpg) no-repeat center top;
+  <body style="height: 2000px;  background: url(../img/Background.gif) no-repeat center top;
   background-size: cover;">
-    <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: red;">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #a11480;">
         <div class="container">
 
        
       <a href="#" class="navbar-brand mb-0 h1">
         <img
-          src="img/fondo.jpg"
+          src="img/Logo.png"
           class="d-inline-block align-top"
           width="40"
           height="40"
-          style=" border-radius: 50%;"
+          
         />
-        Navbar
+        Diegesis
       </a>
       <button 
       type="button"
@@ -109,21 +111,22 @@
     </div>
     </nav>
 
-<div class="contenedor-buscador" style="top: 50%; left: 50%;  position: absolute; color: bisque;
+<div class="contenedor-buscador" style="top: 50%; left: 50%;  position: absolute; color: rgb(11, 6, 1);
 transform: translate(-50%,-50%); width: 820px;
     height: 420px;">
     
     <br>
     <br>
     
-    <input type="text" class="form-control me-2" placeholder="Buscar...">
-    <button class="btn btn-outline-success">Buscar</button>
+    <input type="text" class="form-control input-lg" placeholder="Buscar..."> 
+     <button class="btn btn-success">Buscar</button>
+  
 <br>
 <br>
-    <label for="Filtros">Ordenar:</label>
+    <label for="Filtros" class="navbar-brand mb-0 h1" >Ordenar:</label>
     
 
-    <select name="Filtros" id="filtros">
+    <select name="Filtros" id="filtros" class="navbar-brand mb-0 h1">
     <option value="Teror">Terror</option>
     <option value="Fantasia">Fantasia</option>
     <option value="Romance">Romance</option>
@@ -136,8 +139,14 @@ transform: translate(-50%,-50%); width: 820px;
 
 
 <div class="contenedor" style="top: 90%; left: 60%;  position: absolute; 
-transform: translate(-60%,-60%); width: 820px;
+transform: translate(-60%,-60%); width: 720px;
     height: 420px;">
+
+<div class="burbujas">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
 <div class="card">
     <div class="card-image">
@@ -156,19 +165,19 @@ transform: translate(-60%,-60%); width: 820px;
     <h2 class="blog-title">Nombre de la historia</h2>
 
     <p class="excerpt">
-       Ejemplo
+       Nombre de la historia
     </p>
 
     <h2 class="blog-title">Autor</h2>
 
     <p class="excerpt">
-        Ejemplo
+        Autor
     </p>
 
     <h2 class="blog-title">Sipnosis</h2>
 
     <p class="excerpt">
-        ejemplo
+      Sipnosis
     </p>
 
 
